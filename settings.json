@@ -1,0 +1,138 @@
+{
+	"window.openFilesInNewWindow": "off",
+
+	//Main editor settings
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,	
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	//Determines whether the editor will scroll beyond the last line.
+	"editor.scrollBeyondLastLine": true,
+	"editor.snippetSuggestions": "bottom",
+	//Specifies whether the editor should display control characters.
+	"editor.renderControlCharacters": false,
+	//Controls the selection of characters that can be confused with basic ASCII characters other than those that are common to the current user locale.
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	//Appearance
+	"editor.cursorBlinking": "expand",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+
+	//Font
+	"editor.fontSize": 18,
+	"editor.fontLigatures": true,
+	// "editor.fontFamily": "Pragmata Pro",
+	"editor.fontFamily": "JetBrains Mono, IBM Plex Mono, monospace",
+
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// //Emmet
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	//Workbench
+	"workbench.colorTheme": "Omni",
+	//Allow tabs to shrink when there is not enough space available to display all tabs at the same time.
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.activityBar.visible": true,
+	"workbench.startupEditor": "newUntitledFile",
+
+	//Debug
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	//Format
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	//Include parentheses around the arrow function's only parameter
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	//Terminal
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.tabs.enabled": false,
+
+	//Other
+	//Commit all changes when there are no staged changes.
+	"git.enableSmartCommit": true,
+	"files.defaultLanguage": "plaintext",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	//JS & TS
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	//Spell checker
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": ["blade", "jsx", "sass", "vue"],
+
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true
+	},
+	"json.schemas": [
+		
+	
+	],
+	"workbench.iconTheme": "material-icon-theme",
+	"vscodeGoogleTranslate.preferredLanguage": "English",
+	"files.autoSave": "afterDelay",
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"liveSassCompile.settings.showOutputWindow": false,
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"markdownlint.customRules": [
+		"{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+	],
+	"markdownlint.config": {
+		"MD028": false,
+		"MD025": {
+			"front_matter_title": ""
+		}
+	},
+	"window.zoomLevel": 1
+}
